@@ -1,0 +1,603 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    nav {
+        height: 7rem;
+        width: 100%;
+        z-index: 10;
+    }
+    
+    label.logo {
+        line-height: 7rem;
+        padding-left: 2rem;
+        padding-top: 5rem;
+    }
+    
+    nav ul {
+        margin-top: -1rem;
+        list-style: none;
+        float: right;
+        margin-right: 30rem;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        line-height: 8rem;
+        padding-right: 5rem;
+    }
+    
+    nav a {
+        color: #a8a7a5;
+    }
+    
+    nav button {
+        border-radius: 20px;
+        margin-top: -85px;
+        margin-right: 30px;
+        margin-left: 400px;
+        float: right;
+        color: white;
+        background-color: tomato;
+        border: 1px solid white;
+        width: 120px;
+        height: 50px;
+    }
+    
+    .checkbtn {
+        font-size: 3rem;
+        color: #13a3f0;
+        float: right;
+        line-height: 8rem;
+        margin-right: 4rem;
+        cursor: pointer;
+        display: none;
+    }
+    
+    #check {
+        display: none;
+    }
+    
+    .first {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 30rem;
+        width: 100%;
+    }
+    
+    .pt {
+        padding-top: 1rem;
+    }
+    
+    .introduction {
+        padding-left: 7rem;
+        padding-top: 6rem;
+        margin-left: 2rem;
+    }
+    
+    .introduction h2 {
+        color: #034252;
+        font-size: 3.5rem;
+        padding-bottom: 1rem;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .introduction p {
+        font-size: 1.2rem;
+        font-family: 'Rubik', sans-serif;
+        color: gray;
+    }
+    
+    .img1 {
+        margin-left: 10rem;
+    }
+    
+    .img2 {
+        margin-left: 6rem;
+    }
+    
+    .introduction button {
+        margin-top: 3rem;
+        border-radius: 20px;
+        color: white;
+        background-color: tomato;
+        border: 1px solid white;
+        width: 150px;
+        height: 60px;
+    }
+    
+    .introduction button a {
+        color: white;
+        margin-top: 3rem;
+        background-color: tomato;
+    }
+    
+    .aboutsec {
+        position: relative;
+        top: -20rem;
+        padding-left: 8rem;
+        margin-left: 2rem;
+    }
+    
+    .aboutsec h2 {
+        color: #034252;
+        font-size: 2.5rem;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .all img {
+        padding-bottom: 1rem;
+    }
+    
+    .all h3 {
+        padding-bottom: 1rem;
+        font-size: 1rem;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .all p {
+        font-family: 'Rubik', sans-serif;
+        color: gray;
+    }
+    
+    .optim {
+        position: relative;
+        left: 50px;
+        width: 350px;
+        height: 180px;
+        margin-left: 2rem;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        padding-left: 2.5rem;
+    }
+    
+    .market {
+        position: relative;
+        left: 550px;
+        bottom: 25rem;
+        width: 350px;
+        height: 180px;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        padding-left: 2.5rem;
+    }
+    
+    .remarket {
+        position: relative;
+        left: 550px;
+        bottom: 18rem;
+        width: 350px;
+        height: 180px;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        padding-left: 2.5rem;
+    }
+    
+    .media {
+        position: relative;
+        left: 1000px;
+        bottom: 52rem;
+        width: 350px;
+        height: 200px;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        padding-left: 2.5rem;
+    }
+    
+    .webd {
+        position: relative;
+        left: 1000px;
+        bottom: 46rem;
+        width: 350px;
+        height: 180px;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        padding-left: 2.5rem;
+    }
+    
+    .reporting {
+        position: relative;
+        left: 1000px;
+        bottom: 40rem;
+        width: 350px;
+        height: 200px;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        padding-left: 2.5rem;
+    }
+    
+    .ab1 {
+        position: relative;
+        top: -30rem;
+        padding-left: 8rem;
+        margin-left: 2rem;
+    }
+    
+    .ab1 h2 {
+        color: #034252;
+        font-size: 2.5rem;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .agencies a {
+        text-decoration: none;
+        color: #034252;
+    }
+    
+    .ar1 i {
+        padding-top: 1rem;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        border: 2px solid gray;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+    }
+    
+    .ar1 {
+        margin-right: 1rem;
+        margin-left: 6rem;
+        position: relative;
+        bottom: 21.2rem;
+    }
+    
+    .ar2 {
+        padding-top: 1rem;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        border: 2px solid gray;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+    }
+    
+    .ar2 {
+        float: right;
+        margin-right: 5rem;
+        position: relative;
+        bottom: 3.5rem;
+    }
+    
+    .agencies ul {
+        list-style: none;
+        margin-top: -25rem;
+        margin-left: 15rem;
+    }
+    
+    .agencies ul li {
+        font-size: 1rem;
+        font-family: 'Rubik', sans-serif;
+        width: 200px;
+        height: 70px;
+        display: inline-block;
+        padding-top: 1.5rem;
+        text-align: center;
+        margin-right: 5rem;
+        color: #034252;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+    }
+    
+    .agencies ul li i {
+        padding-right: 1rem;
+    }
+    
+    .ab2 {
+        position: relative;
+        top: -10rem;
+        padding-left: 8rem;
+        margin-left: 2rem;
+    }
+    
+    .ab2 h2 {
+        color: #034252;
+        font-size: 2.5rem;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .clients ul {
+        list-style: none;
+        margin-top: -5rem;
+        margin-left: 15rem;
+    }
+    
+    .clients ul li {
+        font-size: 1rem;
+        font-family: 'Rubik', sans-serif;
+        width: 200px;
+        height: 70px;
+        display: inline-block;
+        padding-top: 1.5rem;
+        text-align: center;
+        margin-right: 5rem;
+        color: blue;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+    }
+    
+    .ar3 i {
+        padding-top: 1rem;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        border: 2px solid gray;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        border-radius: 50%;
+    }
+    
+    .ar3 {
+        margin-right: 1rem;
+        margin-left: 6rem;
+        position: relative;
+        bottom: 1rem;
+    }
+    
+    .ab3 {
+        padding-top: 10rem;
+        padding-left: 8rem;
+        margin-left: 2rem;
+    }
+    
+    .ab3 h2 {
+        color: #034252;
+        font-size: 2.5rem;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .team img {
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        border-radius: 50%;
+    }
+    
+    .team h2 {
+        padding-right: 5rem;
+        text-align: center;
+        color: #034252;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .team h3 {
+        padding-right: 5rem;
+        text-align: center;
+        color: gray;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .im1 {
+        width: 300px;
+        height: 300px;
+        margin-top: 9rem;
+        margin-left: 10.5rem;
+    }
+    
+    .im2 {
+        width: 300px;
+        height: 300px;
+        margin-top: 3rem;
+        margin-left: 10.5rem;
+    }
+    
+    .im3 {
+        width: 300px;
+        height: 300px;
+        margin-left: 30rem;
+        margin-top: -27rem;
+    }
+    
+    .im4 {
+        width: 300px;
+        height: 300px;
+        margin-left: 30rem;
+        margin-top: 2rem;
+    }
+    
+    .im5 {
+        width: 300px;
+        height: 300px;
+        margin-left: 54rem;
+        margin-top: -45rem;
+    }
+    
+    .im6 {
+        width: 300px;
+        height: 300px;
+        margin-left: 54rem;
+    }
+    
+    .im7 {
+        width: 300px;
+        height: 300px;
+        margin-left: 76rem;
+        margin-top: -50rem;
+    }
+    
+    .im8 {
+        width: 300px;
+        height: 300px;
+        margin-left: 76rem;
+    }
+    
+    .im9 {
+        width: 300px;
+        height: 300px;
+        margin-left: 76rem;
+    }
+    
+    .ab4 {
+        padding-top: 8rem;
+        padding-left: 8rem;
+        margin-left: 2rem;
+    }
+    
+    .ab4 h2 {
+        color: #034252;
+        font-size: 2.5rem;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .newss {
+        display: flex;
+        margin-top: 10rem;
+        margin-left: 10.5rem;
+    }
+    
+    .newss img {
+        width: 300px;
+        height: 200px;
+        border-radius: 15px;
+        padding-bottom: 1rem;
+    }
+    
+    .funnel,
+    .facebook,
+    .zoo {
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        margin-right: 5rem;
+        padding-left: 2rem;
+        padding-top: 1.5rem;
+        width: 400px;
+        height: 500px;
+    }
+    
+    .newss h2 {
+        font-size: 1.5rem;
+        font-family: 'Rubik', sans-serif;
+        color: #034252;
+        padding-bottom: 1rem;
+    }
+    
+    .newss p {
+        color: gray;
+        font-family: 'Rubik', sans-serif;
+        padding-bottom: 1rem;
+    }
+    
+    .newss a {
+        color: gray;
+        padding-top: 1rem;
+        font-size: 3rem;
+    }
+    
+    .ab5 {
+        padding-top: 8rem;
+        padding-left: 8rem;
+    }
+    
+    .ab5 h2 {
+        text-align: center;
+        color: #034252;
+        font-size: 2.5rem;
+        font-family: 'Rubik', sans-serif;
+        padding-bottom: 2rem;
+    }
+    
+    .ab5 h3 {
+        text-align: center;
+        color: gray;
+        font-size: 1.5rem;
+        font-family: 'Rubik', sans-serif;
+        padding-bottom: 2rem;
+    }
+    
+    .email {
+        padding-left: 30rem;
+    }
+    
+    .email input {
+        font-family: 'Rubik', sans-serif;
+        border: 1px solid gray;
+        padding-left: 3rem;
+        font-size: 1rem;
+        border-radius: 15px;
+        width: 700px;
+        height: 80px;
+    }
+    
+    .subs {
+        font-family: 'Rubik', sans-serif;
+        font-size: 1rem;
+        margin-left: -170px;
+        width: 150px;
+        height: 50px;
+        border: 1px solid gray;
+        border-radius: 20px;
+        background-color: tomato
+    }
+    
+    .subs a {
+        text-decoration: none;
+        color: whitesmoke;
+        background-color: tomato;
+    }
+    
+    .foot {
+        display: flex;
+        height: 15rem;
+        margin-top: 2rem;
+        background-color: #f0ae81;
+    }
+    
+    .footer img {
+        margin-left: 10.5rem;
+        padding-bottom: 2rem;
+    }
+    
+    .footer p {
+        margin-left: 10.5rem;
+        color: gray;
+        font-size: 1rem;
+        font-family: 'Rubik', sans-serif;
+        padding-bottom: 2rem;
+    }
+    
+    .footer a {
+        color: whitesmoke;
+        position: relative;
+        left: 10.5rem;
+        padding-right: 1rem;
+        padding-left: 20px;
+        font-size: 2rem;
+    }
+    
+    .footer1 {
+        padding-left: 7rem;
+    }
+    
+    .footer1 h2 {
+        padding-top: 1rem;
+        padding-left: 3rem;
+        color: gray;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .footer1 h3 {
+        color: gray;
+        padding-left: 3rem;
+        padding-top: 1rem;
+    }
+    
+    .footer2 {
+        padding-left: 15rem;
+    }
+    
+    .footer2 h2 {
+        padding-top: 1rem;
+        color: gray;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .footer2 h3 {
+        padding-top: 2rem;
+        color: gray;
+    }
+    
+    .footer2 i {
+        padding-right: 1rem;
+    }
